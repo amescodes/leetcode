@@ -30,7 +30,7 @@ nums is sorted in ascending order.
  * @param {number} target
  * @return {number}
  */
-var search = function (nums, target) {
+var binarySearch = function (nums, target) {
   // attempt 1
   //return nums.indexOf(target);
 
