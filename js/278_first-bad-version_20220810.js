@@ -53,12 +53,12 @@ Constraints:
         let left = 1;
         let right = n;
         
-        while(left <= right)
+        while(left < right)
         {        
-            var mid = Math.ceil((left + right) / 2)
+            var mid = parseInt(left+(right-left)/2);
         
             if(isBadVersion(mid)) {
-                right = mid - 1;
+                right = mid;
             }
             else {
                 left = mid + 1
